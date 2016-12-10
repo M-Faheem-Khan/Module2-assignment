@@ -1,6 +1,3 @@
-/*DESKTOP > 992px*/
-/*TABLET 768px > 991px*/
-/*PHONE 990px > 767px*/
 *{
      margin: 0px;
      padding: 0px;
@@ -9,156 +6,130 @@
 body{
      background: rgb(128, 96, 187);
      color: #efefef;
-     font-family: sans-serif serif;
+     font-family: cursive;
+     overflow: auto;
 }
+
 .title{
+     margin: 25px;
      text-align: center;
      font-size: 25px;
 }
 
 .wrapper{
-     margin: 5px;
-     padding: 10px;
      text-align: center;
-
+     display: inline-block;
+     margin: -15px;
 }
 
+/*DESKTOP > 992px*/
 @media (min-width: 992px) {
-     .one, .two, .three{
+     /*SYLING ALL THE SECTIONS*/
+     section{
+          margin-top: 50px;
+          width: 25%;
+          border: 2px solid black;
+          padding: 15px;
           display: inline-block;
-          width: 30%;
+          background: rgb(241, 173, 125);
+          color: #111;
+     }
+
+     .one, .two, .three{
+          margin-left: 7px;
+     }
+
+     .one_title, .two_title, .three_title{
+          position: relative;
+          top: -16px;
+          right: -16px;
+          color: rgb(147, 57, 219);
+          float: right;
           padding: 5px;
-          border: 1px solid yellow;
-          background: #2f4040;
-          margin-left: 10px;
+          border: 1px solid black;
      }
 
-     .one_content{
-          padding: 3px;
-          margin-top: -5px;
-          margin-right: -5px;
-          background: rgb(254, 82, 60);
-          border: 1px solid #efefef;
-          display: block;
-          float: right;
-     }
-
-     .two_content{
-          padding: 3px;
-          margin-top: -5px;
-          margin-right: -5px;
-          background: rgb(100, 251, 119);
-          border: 1px solid #efefef;
-          display: block;
-          float: right;
-          color: #111;
-     }
-
-     .three_content{
-          color: #111;
-          padding: 3px;
-          margin-top:-5px;
-          margin-right: -5px;
-          background: rgb(144, 223, 205);
-          border: 1px solid #efefef;
-          display: block;
-          float: right;
+     .para{
+          margin-top: 40px;
+          text-align: left;
      }
 }
 
-@media (min-width: 768px) and (max-width: 991px)  {
-     .one, .two{
-          display: inline-block;
-          width: 45%;
-          padding: 5px;
-          border: 1px solid yellow;
-          background: #2f4040;
-          margin: 10px;
+/*TABLET 768px > 991px*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+     /*SYLING ALL THE SECTIONS*/
+     .wrapper{
+          margin: 5px;
      }
 
+     section{
+          margin-top: 50px;
+          width: 45%;
+          border: 2px solid black;
+          padding: 15px;
+          display: inline-block;
+          background: rgb(241, 173, 125);
+          color: #111;
+     }
+
+     .one, .two, {
+          margin-left: 7px;
+     }
 
      .three{
+
+          margin-top: 7px;
+          width: 94.50%;
+          margin-left: 1%;
           display: block;
-          width: 45%;
+     }
+
+     .one_title, .two_title, .three_title{
+          position: relative;
+          top: -16px;
+          right: -16px;
+          color: rgb(147, 57, 219);
+          float: right;
           padding: 5px;
-          border: 1px solid yellow;
-          background: #2f4040;
-          margin: 10px;
+          border: 1px solid black;
      }
 
-     .one_content{
-          padding: 3px;
-          margin-top: -5px;
-          margin-right: -5px;
-          background: rgb(254, 82, 60);
-          border: 1px solid #efefef;
-          display: block;
-          float: right;
-     }
-
-     .two_content{
-          padding: 3px;
-          margin-top: -5px;
-          margin-right: -5px;
-          background: rgb(100, 251, 119);
-          border: 1px solid #efefef;
-          display: block;
-          float: right;
-          color: #111;
-     }
-
-     .three_content{
-          color: #111;
-          padding: 3px;
-          margin-top:-5px;
-          margin-right: -5px;
-          background: rgb(144, 223, 205);
-          border: 1px solid #efefef;
-          display: block;
-          float: right;
+     .para{
+          margin-top: 40px;
+          text-align: left;
      }
 }
 
 @media (max-width: 767px) {
-     .one, .two, .three{
+     /*PHONE 990px > 767px*/
+     .wrapper{
+          margin: 5px;
+     }
+
+     section{
+          margin-top: 10px;
+          width: 93.50%;
+          margin-left: 1%;
+          margin-right: 1%;
+          border: 2px solid black;
+          padding: 15px;
           display: block;
-          width: 95%;
+          background: rgb(241, 173, 125);
+          color: #111;
+     }
+
+     .one_title, .two_title, .three_title{
+          position: relative;
+          top: -16px;
+          right: -16px;
+          color: rgb(147, 57, 219);
+          float: right;
           padding: 5px;
-          border: 1px solid yellow;
-          background: #2f4040;
-          margin: 10px;
+          border: 1px solid black;
      }
 
-     .one_content{
-          padding: 3px;
-          margin-top: -5px;
-          margin-right: -5px;
-          background: rgb(254, 82, 60);
-          border: 1px solid #efefef;
-          display: block;
-          float: right;
+     .para{
+          margin-top: 40px;
+          text-align: left;
      }
-
-     .two_content{
-          padding: 3px;
-          margin-top: -5px;
-          margin-right: -5px;
-          background: rgb(100, 251, 119);
-          border: 1px solid #efefef;
-          display: block;
-          float: right;
-          color: #111;
-     }
-
-     .three_content{
-          color: #111;
-          padding: 3px;
-          margin-top:-5px;
-          margin-right: -5px;
-          background: rgb(144, 223, 205);
-          border: 1px solid #efefef;
-          display: block;
-          float: right;
-     }
-
 }

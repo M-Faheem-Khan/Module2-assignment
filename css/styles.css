@@ -46,6 +46,10 @@ section{
      padding: 10px;
 }
 
+.suprise{
+     display: none;
+}
+
 /*DESKTOP > 992px*/
 @media (min-width: 992px) {
      /*SYLING ALL THE SECTIONS*/

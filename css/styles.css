@@ -29,6 +29,19 @@ section{
      border: 1px solid black;
 }
 
+
+ .one_title{
+     background: rgb(232, 42, 211);
+}
+
+ .two_title{
+     background: rgb(176, 57, 252);
+}
+
+ .three_title{
+     background: rgb(29, 53, 213);
+}
+
  .one_title, .two_title, .three_title{
       background: rgb(15, 180, 159);
       right: 50px;

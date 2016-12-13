@@ -2,134 +2,97 @@
      margin: 0px;
      padding: 0px;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 
 body{
      background: rgb(128, 96, 187);
      color: #efefef;
      font-family: cursive;
-     overflow: auto;
 }
 
 .title{
-     margin: 25px;
      text-align: center;
-     font-size: 25px;
+     font-size: 30px;
 }
 
 .wrapper{
-     text-align: center;
+     width: 96%;
+     margin: 4%;
+}
+
+section{
+     background: rgb(241, 173, 125);
+     position: relative;
      display: inline-block;
-     margin: -15px;
+     width: 30%;
+     margin-top: 50px;
+     border: 1px solid black;
+}
+
+ .one_title, .two_title, .three_title{
+      background: rgb(15, 180, 159);
+      right: 50px;
+      float: right;
+      width: 100px;
+      text-align: center;
+      border-left: 1px solid rgb(20, 88, 238);
+      border-bottom: 1px solid rgb(20, 88, 238);
+}
+
+.para{
+     display: block;
+     padding: 10px;
 }
 
 /*DESKTOP > 992px*/
 @media (min-width: 992px) {
      /*SYLING ALL THE SECTIONS*/
-     section{
-          margin-top: 50px;
-          width: 25%;
-          border: 2px solid black;
-          padding: 15px;
-          display: inline-block;
-          background: rgb(241, 173, 125);
-          color: #111;
-     }
-
-     .one, .two, .three{
-          margin-left: 7px;
-     }
-
-     .one_title, .two_title, .three_title{
-          position: relative;
-          top: -16px;
-          right: -16px;
-          color: rgb(147, 57, 219);
-          float: right;
-          padding: 5px;
-          border: 1px solid black;
-     }
-
-     .para{
-          margin-top: 40px;
-          text-align: left;
+     #suprise{
+          display: none;
      }
 }
 
 /*TABLET 768px > 991px*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
      /*SYLING ALL THE SECTIONS*/
      .wrapper{
-          margin: 5px;
+          width: 95%;
      }
-
      section{
-          margin-top: 50px;
-          width: 45%;
-          border: 2px solid black;
-          padding: 15px;
-          display: inline-block;
-          background: rgb(241, 173, 125);
-          color: #111;
+          width: 48%;
      }
 
-     .one, .two, {
-          margin-left: 7px;
+     .two{
+          margin-left: 2px;
      }
 
      .three{
-
-          margin-top: 7px;
-          width: 94.50%;
-          margin-left: 1%;
+          margin-top:10px;
           display: block;
+          width: 97%;
      }
 
-     .one_title, .two_title, .three_title{
-          position: relative;
-          top: -16px;
-          right: -16px;
-          color: rgb(147, 57, 219);
-          float: right;
-          padding: 5px;
-          border: 1px solid black;
-     }
-
-     .para{
-          margin-top: 40px;
-          text-align: left;
+     #suprise{
+          display: inline;
      }
 }
 
 @media (max-width: 767px) {
      /*PHONE 990px > 767px*/
      .wrapper{
-          margin: 5px;
+          width: 96%;
+          margin: 1.5%;
      }
 
      section{
           margin-top: 10px;
-          width: 93.50%;
-          margin-left: 1%;
-          margin-right: 1%;
-          border: 2px solid black;
-          padding: 15px;
+          width: 100%;
           display: block;
-          background: rgb(241, 173, 125);
-          color: #111;
      }
 
-     .one_title, .two_title, .three_title{
-          position: relative;
-          top: -16px;
-          right: -16px;
-          color: rgb(147, 57, 219);
-          float: right;
-          padding: 5px;
-          border: 1px solid black;
-     }
-
-     .para{
-          margin-top: 40px;
-          text-align: left;
+     #suprise{
+          display: none;
      }
 }

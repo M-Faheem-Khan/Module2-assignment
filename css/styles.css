@@ -2,9 +2,6 @@
      margin: 0px;
      padding: 0px;
 }
-::-webkit-scrollbar {
-    display: none;
-}
 
 body{
      background: rgb(128, 96, 187);
